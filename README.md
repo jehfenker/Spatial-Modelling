@@ -1,3 +1,3 @@
 # Spatial-Modelling
 
-Random scripts for species distribution modelling and projections to the past
+Random scripts with examples for species distribution modelling and projections to the past

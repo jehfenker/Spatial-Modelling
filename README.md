@@ -1,6 +1,6 @@
 # Spatial-Modelling
 
-In this repository, you can find random scripts with examples for species distribution modelling and projections to the past.
+In this repository, you can find random scripts with examples for species distribution modelling and projections to the past. :earth_americas:
 
  *  In the folder "Fenker et al, 2020 - Journal of Biogegraphy" you can access scripts to run analysis performed for the paper 
     Fenker et al, 2020 - published on Journal of Biogeography https://doi.org/10.5061/dryad.m0cfxpp05. Some scripts are originals

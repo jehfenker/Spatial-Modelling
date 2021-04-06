@@ -65,7 +65,7 @@ image.width=1400
 image.height=1400
 
 #define directories
-base.dir        <- '/Users/jessica/Models/PEanalysis/'
+base.dir        <- '/Users/jessica/Models/diversity_analysis/'
 input.dir       <- '~/Models/lineage_models/asc_aligned/'
 output.dir      <- 'Diversity'
 file_pattern    <- 'lin_model_Ameiva'

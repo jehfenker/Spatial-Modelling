@@ -78,7 +78,7 @@ rm(list=ls())
 
 ############## START OF PARAMETERS ##############
 
-genus              <- "Tropidurus"
+genus              <- "Ameiva"
 
 base_dir            <- "/Users/jessica/Dropbox/Models/"
 output_dir          <- paste(base_dir, "lineage_models/asc/", sep="")  # where the lineage model grids and working data go

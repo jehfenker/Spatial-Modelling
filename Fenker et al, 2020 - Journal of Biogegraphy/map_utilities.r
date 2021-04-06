@@ -1,3 +1,8 @@
+#### Copyright Dan Rosauer 2016         ####
+#### Australian National University     ####
+#### September 2012 - November 2016     ####
+#### dan.rosauer@anu.edu.au             ####
+
 library(ggplot2)
 
 # load sizes of google maps.  This could be hard coded to remove need for file

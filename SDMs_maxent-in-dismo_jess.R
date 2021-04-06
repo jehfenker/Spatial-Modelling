@@ -1,5 +1,5 @@
 
-#### Copyright Jessica Fenker 2020   ####
+####      Jessica Fenker 2020        ####
 #### Australian National University  ####
 ####    jehfenker@gmail.com          ####
 

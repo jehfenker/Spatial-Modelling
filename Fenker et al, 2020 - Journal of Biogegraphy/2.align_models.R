@@ -9,7 +9,7 @@ library(raster)
 library(stringr)
 
 ### Parameters ###
-base.dir          <- "/Users/jessica/Dropbox/Models/"   # modify to the base directory for your lineage modelling
+base.dir          <- "/Users/jessica/Models/"   # modify to the base directory for your lineage modelling
 
 input.dir         <-  paste(base.dir, 'lineage_models/asc/', sep ='')          # location of existing lineage distribution models
 output.dir        <-  paste(base.dir, 'lineage_models/asc_aligned/', sep='')   # now folder, where the aligned lineage distribution models will be saved

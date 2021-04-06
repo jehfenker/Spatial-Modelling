@@ -7,9 +7,6 @@
 ####    jehfenker@gmail.com          ####
 
 
-## This script will combine the PE results with conservation areas
-## and indigenous lands in Cerrado 
-
 rm(list=ls())
 
 library(raster)

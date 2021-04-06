@@ -2,7 +2,7 @@
 # Fenker et al, 2020 - Journal of Biogeography
 # https://doi.org/10.5061/dryad.m0cfxpp05 
 
-#### Copyright Jessica Fenker 2020   ####
+####      Jessica Fenker 2020        ####
 #### Australian National University  ####
 ####    jehfenker@gmail.com          ####
 

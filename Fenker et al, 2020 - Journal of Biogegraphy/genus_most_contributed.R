@@ -6,8 +6,8 @@
 #### Australian National University  ####
 ####    jehfenker@gmail.com          ####
 
-# The aim of this script to figure out the genera that most contributed to the result
-# and generate a nice plot
+## The aim of this script to figure out the genera that most contributed to the result
+## and generate a nice plot
 
 rm(list=ls())
 library(raster)

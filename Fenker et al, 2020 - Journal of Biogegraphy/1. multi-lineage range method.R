@@ -65,6 +65,10 @@
 ## 10. multiply each lineage weight layer by the model likelihood so that the weights for each pixel sum to the original
 ##    SDM model value for that pixel.
 
+#install all the necessary packages 
+packages_to_install <- c("ALA4R", "ape", "betapart", "dismo", "doParallel", "fields", "foreach", "gdistance", "gdm", "ggmap", "ggplot2", "geosphere", "maptools", "mgcv", "ncdf4", "phylobase", "raster", "RColorBrewer", "rworldmap", "SDMTools", "sp", "stringr")
+install.packages(packages_to_install)
+
 library(raster)
 library(sp)
 library(stringr)

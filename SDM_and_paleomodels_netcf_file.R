@@ -21,7 +21,7 @@ library(lattice)
 library(ggplot2)
 
 #if you didnt create a project,set your working directory
-#setwd("~/Box/running_SDMs")
+#setwd("~/jessica/running_SDMs")
 
 
 #To use maxent you must first download the program from 
@@ -69,8 +69,7 @@ for (var_name in var_names) {
 #read species data and crop to area 
 species_data_all <-read.csv("dipes_coord.csv")
 head(species_data_all)
-species_data_unique <-read.csv("dipes_species.csv")
-species_unique <- unique(species_data_unique$species)
+species_unique <- unique(species_data_all$species)
 #for fast visualization of your data
 plot(species_data_all$x, species_data_all$y)
 
@@ -196,11 +195,13 @@ write.csv(model_eval, file=paste0(output_file, "maxent_model-evals_species.csv")
 
 
 
-############
-# paleo
-#set file paths etc
 
-output_dir <- "~/Box/SDM/running_SDMs/SDM_results/" #change details to your computer folder
+##############################
+### RUNNING PALEO MODELS ####
+#############################
+
+#set file paths etc
+output_dir <- "~/jessica/running_SDMs/SDM_results/" #change details to your computer folder
 
 time_periods <- c("X.80000","X.78000","X.76000","X.74000","X.72000","X.70000" ,"X.68000","X.66000","X.64000","X.62000","X.60000","X.58000","X.56000","X.54000",
                   "X.52000","X.50000","X.48000","X.46000","X.44000","X.42000","X.40000","X.38000","X.36000","X.34000","X.32000","X.30000","X.28000","X.26000",
@@ -240,7 +241,7 @@ for (i in time_periods){
 
 ##refugia
 species_unique <- species_unique[c(3,6,7,8)]
-species_folder <- "~/Box/SDM/running_SDMs/SDM_results/"
+species_folder <- "~/jessica/running_SDMs/SDM_results/"
 
 for (i in species_unique){
   
@@ -271,3 +272,5 @@ for (i in species_unique){
   print(paste0(i, " finished"))
   
 }
+
+# Done!

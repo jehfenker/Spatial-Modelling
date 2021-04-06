@@ -1,6 +1,12 @@
-#######################################
-####### SDM script - Jess Fenker ######
-#######################################
+####     Jessica Fenker 2020         ####
+#### Australian National University  ####
+####    jehfenker@gmail.com          ####
+
+
+## This script can be use to run MaxEnt in R to generate Species Distribution Models
+## and to project the models to the past, based on the data published by Beyer et al 2020
+## "High-resolution terrestrial climate, bioclimate and vegetation for the last 120,000 years"
+## published on the journal Scientific Data https://doi.org/10.1038/s41597-020-0552-1
 
 #install necessary packages
 install.packages("dismo")
